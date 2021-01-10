@@ -1,4 +1,4 @@
-window.mockApiUrl = "https://5ff1a6a2db1158001748b2ab.mockapi.io/pets/";
+window.mockApiUrl = "https://5ffaafa487478d0017d9a780.mockapi.io/pets";
 
 window.removePet = (id) => {
     fetch(`${window.mockApiUrl}${id}`, {
